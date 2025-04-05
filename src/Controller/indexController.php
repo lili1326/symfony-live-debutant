@@ -12,7 +12,7 @@ class indexController extends AbstractController
     public function index(): Response
     {      
        // return new Response('Hello world');
-       return $this->render('page/index.html.twig');
+       return $this->render('pages/index.html.twig');
     }
 
 }
